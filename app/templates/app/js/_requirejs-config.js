@@ -11,7 +11,7 @@ var require={
     "bootstrap": "bower_components/bootstrap/dist/js/bootstrap.min", /*data-alt-path="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min"*/
     "underscore": "bower_components/underscore/underscore-min", /*data-alt-path="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"*/
     "underscore.string": "bower_components/underscore.string/dist/underscore.string.min", /*data-alt-path="//cdnjs.cloudflare.com/ajax/libs/underscore.string/2.3.3/underscore.string.min.js"*/
-    "reactive-coffee": "bower_components/reactive-coffee/dist/reactive-coffee.min", /*data-alt-path="//www.chicagogrooves.com/js/reactive-coffee.min.js"*/
+    "rx": "bower_components/reactive-coffee/dist/reactive-coffee.min", /*data-alt-path="//www.chicagogrooves.com/js/reactive-coffee.min.js"*/
     /* Loader plugins */
     "css": "bower_components/require-css/css", /*data-alt-path="//www.chicagogrooves.com/js/require-css.min.js"*/
     "coffee": "bower_components/require-cs/cs", /*data-alt-path="//cdnjs.cloudflare.com/ajax/libs/require-cs/0.4.2/cs.js"*/
@@ -22,10 +22,6 @@ var require={
   },
   shim: {
     "bootstrap": ["jquery"],
-    "reactive-coffee": {
-      deps: ["jquery", "underscore", "underscore.string"],
-      exports: "rx"
-    },
     "underscore": {
       exports: "_"
     },
