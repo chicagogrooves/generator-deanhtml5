@@ -6,7 +6,7 @@
     "chai": "~1.8.1",
     "jquery": "1.10.2",
     "mocha": "~1.16.2",
-    "reactive-coffee": "~1.1.1",
+    "reactive-coffee": ">=1.2.1",
     "requirejs": "~2.1.9",
     "require-cs": "~0.4.4",
     "require-css": "~0.1.1",
